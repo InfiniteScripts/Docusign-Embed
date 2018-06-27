@@ -124,14 +124,10 @@ class docusign_embed_Public {
 
 	public function hit_docusign_embed_api(){
 
-		print_r($_POST);
 		$this->signer_name = $_POST['name'];
 		$this->signer_email = $_POST['email'];
 		$this->brokerage = $_POST['broker'];
-		$this->designated_agent = $_post['agent'];
-
-		print_r($this->signer_email);
-		
+		$this->designated_agent = $_post['agent'];			
 		
 		// construct the authentication header:
 		$header = "<DocuSignCredentials><Username>" . $this->docusign_email . "</Username><Password>" . $this->docusign_password . "</Password><IntegratorKey>" . $this->docusign_integration_key . "</IntegratorKey></DocuSignCredentials>";

@@ -64,8 +64,8 @@ function docusign_shortcode(){
   <form id="gather_info" method="post" action="">
     <label class="square_up">Name:</label><input class="name" type="text" name="name"><br>
     <label class="square_up">Email:</label><input class="email" type="text" name="email"><br>    
-    <label class="square_up">Designated Agent:</label><input class="agent" type="text" name="agent"><br>
-    <label class="square_up">Brokerage:</label><input class="broker" type="text" name="brokerage"><br>
+    <!-- <label class="square_up">Designated Agent:</label><input class="agent" type="text" name="agent"><br>
+    <label class="square_up">Brokerage:</label><input class="broker" type="text" name="brokerage"><br> -->
     <input id="submit" type="submit" value="Continue to Sign">
   </form>
 </div>
