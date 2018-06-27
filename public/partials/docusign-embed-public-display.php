@@ -28,7 +28,9 @@ function docusign_embed_page_render(  ) {
       ?>
       <label class="doc-settings">Docusign Integration Key:</label><input value="<?php echo get_option('docusign_integration_key'); ?>" class="docu-input" type="text" name="docusign_integration_key"> <br>
       <label class="doc-settings">Docusign Email Login: </label><input value="<?php echo get_option('docusign_email'); ?>" class="docu-input" type="text" name="docusign_email"> <br>
-      <label class="doc-settings">Docusign Account Psw: </label><input value="<?php echo get_option('docusign_password'); ?>" class="docu-input" type="text" name="docusign_password"> <br>
+      <label class="doc-settings">Docusign Account Psw: </label><input 
+        value="<?php if (get_option('docusign_password') != '') {  echo ' ***********';  } ?>" 
+        class="docu-input" type="text" name="docusign_password"> <br>
       <label class="doc-settings">Docusign Account ID: </label><input value="<?php echo get_option('docusign_account_id'); ?>" class="docu-input" type="text" name="docusign_account_id">
 			<h2>Upload a PDF</h2>
 			<input type='file' id='docusign_embed_upload_pdf' name='docusign_embed_upload_pdf'></input>
