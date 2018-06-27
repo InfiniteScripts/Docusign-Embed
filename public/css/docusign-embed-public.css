@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#embed_area .square_up{
+	width:300px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#embed_area input{
+	margin-bottom: 30px;
+	width:300px;
+}

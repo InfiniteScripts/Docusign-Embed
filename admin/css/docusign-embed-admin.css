@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .doc-settings{
+   width:220px;
+   display:inline-block;
+   margin-bottom:20px;
+   font-size: 18px;
+   padding-top:10px;
+ }
+
+.docu-input{
+  width:400px;
+  margin-bottom:20px;
+}
